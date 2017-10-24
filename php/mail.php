@@ -15,7 +15,7 @@ $mail = new PHPMailer();
 //$mail->setFrom('support@climatec.com', 'Climatec');
 $mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
 //Set who the message is to be sent to
-$mail->addAddress('HR@climatec.com');
+$mail->addAddress('btghr@climatec.com');
 //$mail->addAddress($_REQUEST['email'], $_REQUEST['name']);
 //Set the subject line
 $mail->Subject = 'Join Climatec';
